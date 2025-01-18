@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tracking Number and Status -->
+        <TextView
+            android:id="@+id/trackingNumberTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tracking Number:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Sender Details -->
+        <TextView
+            android:id="@+id/senderNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sender Name:" />
+
+        <TextView
+            android:id="@+id/senderPhoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sender Phone:" />
+
+        <TextView
+            android:id="@+id/senderPostcodeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sender Postcode:" />
+
+        <TextView
+            android:id="@+id/senderAddressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sender Address:" />
+
+        <!-- Recipient Details -->
+        <TextView
+            android:id="@+id/recipientNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipient Name:" />
+
+        <TextView
+            android:id="@+id/recipientPhoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipient Phone:" />
+
+        <TextView
+            android:id="@+id/recipientPostcodeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipient Postcode:" />
+
+        <TextView
+            android:id="@+id/recipientAddressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipient Address:" />
+    </LinearLayout>
+</ScrollView>

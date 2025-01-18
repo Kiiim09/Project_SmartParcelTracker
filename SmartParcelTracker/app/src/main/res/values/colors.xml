@@ -1,0 +1,55 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="primaryColor">#2196F3</color> <!-- Blue -->
+    <color name="primaryLightColor">#64B5F6</color> <!-- Light Blue -->
+    <color name="primaryDarkColor">#1976D2</color> <!-- Dark Blue -->
+
+    <!-- Secondary Colors -->
+    <color name="secondaryColor">#FFC107</color> <!-- Amber -->
+    <color name="secondaryLightColor">#FFD54F</color> <!-- Light Amber -->
+    <color name="secondaryDarkColor">#FFA000</color> <!-- Dark Amber -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#F9F9F9</color> <!-- Very Light Gray -->
+    <color name="backgroundDarkColor">#E0E0E0</color> <!-- Darker Gray -->
+    <color name="cardBackgroundColor">#FFFFFF</color> <!-- White for Cards -->
+    <color name="listBackgroundColor">#F5F5F5</color> <!-- Light Gray for List Background -->
+
+    <!-- Button Colors -->
+    <color name="buttonColor">#4CAF50</color> <!-- Green -->
+    <color name="buttonPressedColor">#388E3C</color> <!-- Dark Green for Pressed State -->
+    <color name="buttonDisabledColor">#BDBDBD</color> <!-- Gray for Disabled Buttons -->
+
+    <!-- Divider Colors -->
+    <color name="dividerColor">#BDBDBD</color> <!-- Light Gray for Dividers -->
+    <color name="listDividerColor">#E0E0E0</color> <!-- Very Light Gray for List Dividers -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark Gray for Primary Text -->
+    <color name="textColorSecondary">#757575</color> <!-- Medium Gray for Secondary Text -->
+    <color name="textColorHint">#9E9E9E</color> <!-- Light Gray for Hints -->
+    <color name="textColorLink">#03A9F4</color> <!-- Blue for Links -->
+    <color name="blackColor">#000000</color> <!-- Black -->
+    <color name="whiteColor">#FFFFFF</color> <!-- White -->
+
+    <!-- Accent Colors -->
+    <color name="accentColor">#FF5722</color> <!-- Deep Orange -->
+    <color name="accentLightColor">#FF8A65</color> <!-- Light Deep Orange -->
+    <color name="accentDarkColor">#E64A19</color> <!-- Dark Deep Orange -->
+
+    <!-- Success & Error Colors -->
+    <color name="successColor">#4CAF50</color> <!-- Green for Success -->
+    <color name="errorColor">#F44336</color> <!-- Red for Errors -->
+    <color name="warningColor">#FFC107</color> <!-- Amber for Warnings -->
+    <color name="infoColor">#03A9F4</color> <!-- Blue for Information -->
+
+    <!-- Additional Shades -->
+    <color name="lightGray">#F0F0F0</color> <!-- Light Gray -->
+    <color name="mediumGray">#CCCCCC</color> <!-- Medium Gray -->
+    <color name="darkGray">#616161</color> <!-- Dark Gray -->
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color> <!-- Fully Transparent -->
+    <color name="semiTransparentWhite">#80FFFFFF</color> <!-- 50% Transparent White -->
+    <color name="semiTransparentBlack">#80000000</color> <!-- 50% Transparent Black -->
+</resources>
