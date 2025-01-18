@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_background"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <!-- Sender Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sender Information"
+            android:textStyle="bold"
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/senderNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sender Name"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/senderPhoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sender Phone Number"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/senderPostcodeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sender Postcode"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/senderAddressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sender Address"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Recipient Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipient Information"
+            android:textStyle="bold"
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/recipientNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient Name"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/recipientPhoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient Phone Number"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/recipientPostcodeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient Postcode"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/recipientAddressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient Address"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Shipping Price -->
+        <Button
+            android:id="@+id/calculatePriceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Shipping Price"
+            android:backgroundTint="@color/buttonColor"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shipping Price: RM 0.00"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/blackColor" />
+
+        <!-- Add Parcel Button -->
+        <Button
+            android:id="@+id/addParcelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Parcel"
+            android:backgroundTint="@color/buttonColor"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

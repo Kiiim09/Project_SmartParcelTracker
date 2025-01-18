@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Smart Parcel Tracker"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Parcel -->
+    <Button
+        android:id="@+id/addParcelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Parcel"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- View Parcels -->
+    <Button
+        android:id="@+id/viewParcelsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Parcels"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Update Parcel -->
+    <Button
+        android:id="@+id/updateParcelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Parcel"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Logout -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>

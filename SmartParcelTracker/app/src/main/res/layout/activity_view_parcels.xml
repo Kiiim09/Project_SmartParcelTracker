@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcel List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/whiteColor"
+        android:padding="8dp"
+        android:background="@drawable/title_background" />
+
+    <!-- Search Field -->
+    <EditText
+        android:id="@+id/searchField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search parcels..."
+        android:padding="12dp"
+        android:layout_below="@id/titleText"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/search_background"
+        android:textColor="@color/textColorPrimary"
+        android:textColorHint="@color/blackColor" />
+
+    <!-- Parcel List -->
+    <ListView
+        android:id="@+id/parcelListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/searchField"
+        android:layout_above="@id/addParcelFab"
+        android:divider="@color/dividerColor"
+        android:dividerHeight="1dp"
+        android:paddingTop="8dp"
+        android:background="@drawable/list_background" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addParcelFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:tint="@color/whiteColor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/buttonColor" />
+
+
+    <!-- Status Text -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parcelListView"
+        android:layout_alignParentBottom="true"
+        android:text="No parcels found"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/textColorSecondary"
+        android:visibility="gone" />
+
+</RelativeLayout>
